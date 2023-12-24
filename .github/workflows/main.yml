@@ -1,0 +1,10 @@
+name: mahmoud
+on: push
+jobs:
+  jobs-nametwo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print please anything
+        run: echo "anything" 
+    
+  
